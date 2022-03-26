@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.loginIn {
+  font-family: 'Roboto', sans-serif;
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+  padding: 10px;
+  margin: auto;
+}
+
+.loginIn .twitterLogo {
+  width: 40px;
+  height: 35px;
+  margin: 10px 0;
+}
+
+.loginIn__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.loginIn__input {
+  min-width: 100%;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  outline: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginIn__input:hover, .loginIn__input:focus {
+  outline: none;
+  border: 2px solid #6ea4eb;
+}
+
+.loginIn__help {
+  margin: 20px 0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1DA1F2;
+}
+
+.loginIn__help:hover {
+  text-decoration: underline;
+}
+
+.loginIn .date-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.loginIn .date-desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+  margin: 10px 0;
+}
+
+.loginIn .date-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+.loginIn .date-details .date-select {
+  width: 259px;
+  height: 50px;
+  left: 372px;
+  top: 566px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+}
+
+.loginIn .date-details .date-select:hover, .loginIn .date-details .date-select:focus {
+  outline: none;
+  border: 2px solid #6ea4eb;
+}
+
+.loginIn .date-details .date-select-month {
+  width: 340px;
+}
+
+.loginIn__next {
+  background: #1DA1F2;
+  border-radius: 76px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.loginIn__next:hover {
+  opacity: 0.7;
+}
+
+.loginIn__next:active {
+  opacity: 1;
+  -webkit-box-shadow: 0 0 5px #5ca2e4;
+          box-shadow: 0 0 5px #5ca2e4;
+}
+
+.loginIn .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=SignIn.css.map */

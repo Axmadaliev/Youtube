@@ -1,0 +1,101 @@
+
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #5e5e5e;
+    --bg-color: #fff;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+}
+.sideBar{
+    background: var(--bg-color);
+    // border: 1px solid red;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding:0 ;
+    padding-top: 80px;
+    overflow-y: scroll;
+    display: block;
+	float: left;
+    #scollbar1::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    #scollbar1::-webkit-scrollbar
+    {
+        width: 12px;
+        background-color: #F5F5F5;
+    }
+
+    #scollbar1::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #555;
+    }
+    &__navigations a{
+        width: 100%;
+        padding: 10px 25px;
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        & > img {
+            width: 20px;
+            margin-right: 20px;
+        }
+        &:hover{
+            background: rgba(0, 0, 0, 0.070);
+        }
+    }
+    & hr{
+        border: 0;
+        height: 1px;
+        background: var(#ccc);        
+    }
+    &__subscribed-list{
+        & h3{
+            font-size:15px;
+            margin: 20px 0;
+            color: var(--font-color);
+            padding: 0px 25px;
+        }
+        & >a {
+            display: flex;
+            align-items:center;
+            margin-bottom: 10px;
+            width: 100%;
+            flex-wrap:wrap;
+            padding: 10px 25px;
+            text-decoration: none;
+            // font-size: 30px;
+            &:hover{
+                background: rgba(0, 0, 0, 0.070);
+            }
+            & img{
+                width: 25px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                margin-right:20px ;
+            }
+        }
+
+    }
+}
+

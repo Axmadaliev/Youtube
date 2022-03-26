@@ -1,0 +1,13 @@
+.todos{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+}
+.todos__item{
+    box-shadow: 0 0  2px black;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    text-align: left;
+    padding: 10px;
+}
